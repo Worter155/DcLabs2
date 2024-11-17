@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Лабораторнвя работа 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="navbar-section">
+        <nav class="navbar navbar-expand-sm bg-light">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="info.html">Информация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Фильмы</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-2 sidebar-container">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#section1">Фото</a>
+                    <a class="list-group-item list-group-item-action" href="#section2">Популярные фильмы</a>
+                    <a class="list-group-item list-group-item-action" href="#section3">Краткая биография</a>
+                </div>
+            </div>
+
+            <div class="col-10">
+                <div data-bs-spy="scroll" data-bs-target="#list" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+
+                    <section id="section1">
+                        <h2>Фото актера</h2>
+                        <div class="carousel-container">
+                            <div id="carouselExampleIndicators" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/ws1.jpg" class="d-block w-100" alt="asd1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/ws2.jpg" class="d-block w-100" alt="asd2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/ws3.jpg" class="d-block w-100" alt="asd3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section id="section2">
+                        <h2>Популярные фильмы</h2>
+                        <div class="card-container">
+                            <div class="card">
+                                <img src="images/m1.webp" alt="m1" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">Неизвестный вирус унёс жизни половины населения земного шара, а остальную половину превратил в вампиров. Единственный уцелевший человек с иммунитетом к заболеванию ночами держит осаду упырей, а днем пытается найти противоядие и докопаться до причин эпидемии.</p>
+                                    <a href="https://www.kinopoisk.ru/film/195524/" class="btn btn-primary">Кинопоиск</a>
+                                </div>
+                            </div>
+
+                            <div class="card" >
+                                <img src="images/m2.webp" alt="m2" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">Инженер Бен отправляется в необычное путешествие. В ходе своей поездки он встречает семерых незнакомцев, включая смертельно больную Эмили, которая называет себя девушкой с подбитыми крыльями. Бен неожиданно влюбляется в нее, что сильно усложняет его первоначальный план.</p>
+                                    <a href="https://www.kinopoisk.ru/film/395787/" class="btn btn-primary">Кинопоиск</a>
+                                </div>
+                            </div>
+
+                            <div class="card" >
+                                <img src="images/m3.webp" alt="m3" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">2035 год. Ряд консервативно настроенных людей, среди которых полицейский Дел Спунер, не доверяют новым помощникам и видят в них угрозу. Он вскоре обнаруживает в лаборатории особенного робота, который вопреки второму закону робототехники игнорирует приказы человека.</p>
+                                    <a href="https://www.kinopoisk.ru/film/4886/" class="btn btn-primary">Кинопоиск</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="section3">
+                        <h2>Краткая биография Уилла Смита</h2>
+                        <a class="btn btn-primary br-btn" data-bs-toggle="collapse" data-bs-target="#brief">Краткая биография</a>
+                        <div id="brief" class="collapse">
+                            Американский актёр, продюсер, хип-хоп исполнитель.
+                            Родился 25 сентября 1968 года в Филадельфии (штат Пенсильвания, США).
+                            Уилл был вторым ребенком из четырех детей Уилларда Смита-старшего, работавшего в рефрижераторной компании, и его жены Кэролайн. Уилл Смит рос в семье среднего класса в Западной Филадельфии и в школе получил прозвище "Принц" - за то, что благодаря своему обаянию и хорошо подвешенному языку ловко выпутывался из всяческих неприятностей. Благодаря успехам в учебе Уилл Смит получил предложение о стипендии от Массачусетского технологического института, но отказался от учебы,предпочтя карьеру в шоу-бизнесе.
+                            Увлекшись современной музыкой, чуть ли не с двенадцати лет Смит стал исполнять "рэп" и на одной вечеринке встретился с Джеффом Таунсом. Вскоре они начали выступать вместе как ди-джей Джаззи Джефф и Крутой Принц, вдвоем они выпустили два платиновых альбома, один из которых получил премию "Грэмми".
+                            Однако к 18 годам Уилл умудрился не только промотать заработанные миллионы, но и наделать себе новых долгов.
+                            Смита спасло неожиданное предложение одного из продюсеров компании Warner Brothers сыграть главную роль в одном из телесериалов. Рэпперу надо было фактически играть самого себя - крутого черного паренька, волею судеб заброшенного в Беверли-Хиллз. "Fresh Prince of Bel Air" (именно так назывался этот сериал) превратил Смита-рэппера в Смита-киноактера и позволил ему рассчитаться со всеми долгами. Сериал шел шесть лет и его успех позволил Смиту войти в профессиональные голливудские круги, где его приняли как своего другие афро-американцы: Джонс, Билл Косби, Вупи Голдберг, Сидней Пуатье,Дэнзел Вашингтон. Кстати, именно последний не раз помогал Уиллу советом, когда Смит отважился сняться в кино.
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>
