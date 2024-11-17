@@ -1,0 +1,52 @@
+.alert{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navbar{
+    border: 2px solid #222222;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+h2{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-sm-6 img{
+    border-radius: 10px;
+    width: 40%;
+    margin-top:10px;
+    
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.col-lg-6{
+    margin: 40px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.col-lg-5 img{
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.col-lg-6 p{
+    margin: 10px;
+}
+
+.table-container{
+    margin:40px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
